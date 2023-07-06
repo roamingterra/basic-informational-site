@@ -21,4 +21,4 @@ The goals of this project were to;
 
 To view a live demo, following the url found below to my repl of this project:
 
-https://basic-informational-site.roamingterra.repl.co
+https://basic-informational-site.roamingterra.repl.co/
