@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "IBMPlexSansRegular";
+  src: url(../fonts/IBMPlexSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "IBMPlexSansThin";
+  src: url(../fonts/IBMPlexSans-Thin.ttf);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #1c2333;
+  color: white;
+  font-family: "IBMPlexSansRegular";
+}
+
+img {
+  width: 200px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.description {
+  font-size: 24px;
+  margin: 0 40px;
+}
+
+@media screen and (min-width: 1440px) {
+  .description {
+    width: 850px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .description {
+    max-width: 850px;
+  }
+}
+
+.contact-information {
+  display: flex;
+  gap: 40px;
+}
+
+.contact-information > a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact-information > a:hover {
+  transform: scale(1.1);
+}
+
+.contact-information > a > i {
+  font-size: 75px;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  font-family: "IBMPlexSansThin";
+  list-style: none;
+  cursor: pointer;
+}
+
+li:hover {
+  color: #83cd29;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.error-message {
+  font-size: 24px;
+}
