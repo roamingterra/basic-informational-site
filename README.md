@@ -18,3 +18,7 @@ The goals of this project were to;
 [Node.js](https://nodejs.org/en)<br>
 
 # Install and run
+
+To view a live demo, following the url found below to my repl of this project:
+
+https://basic-informational-site.roamingterra.repl.co
