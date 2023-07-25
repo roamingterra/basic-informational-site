@@ -28,4 +28,10 @@ app.get("/contact-me", (req, res) => {
   res.render("contact-me");
 });
 
+// Middleware
+app.use((req, res, next) => {
+  res.status(404);
+  res.render("404");
+});
+
 app.listen(port);
