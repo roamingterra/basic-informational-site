@@ -5,9 +5,9 @@ function loadHomePage() {
 }
 
 function loadAboutPage() {
-  window.location.href = "/about.html";
+  window.location.href = "/about";
 }
 
 function loadContactPage() {
-  window.location.href = "/contact-me.html";
+  window.location.href = "/contact-me";
 }
