@@ -22,3 +22,7 @@ The goals of this project were to;
 To view a live demo, following the url found below to my repl of this project:
 
 https://basic-informational-site.roamingterra.repl.co
+
+# Jul 25 2023 update
+
+I rewrote this simple Node.js app using Express
